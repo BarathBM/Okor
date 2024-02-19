@@ -4,4 +4,8 @@ body {
 .dropdown-toggle {
     cursor:pointer;
   }
-  
+nav {
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
