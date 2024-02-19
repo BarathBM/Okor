@@ -4,8 +4,10 @@ body {
 .dropdown-toggle {
     cursor:pointer;
   }
-nav {
+nav ,.dropdown-menu {
     background-color: brown;
-    color: white;
     font-weight: bold;
+}
+.menu{
+    color: white;
 }
