@@ -6,7 +6,16 @@ body {
   }
 nav ,.dropdown-menu {
     font-weight: bold;
+    background-color: rgb(9, 155, 4);
 }
 .menu{
-    color: white;
+    color:white;
+}
+table{
+    width:60%;
+    border: 10px solid black;
+    
+}
+th{
+    border: 10px solid gray;
 }
