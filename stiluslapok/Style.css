@@ -21,12 +21,7 @@ nav ,.dropdown-menu {
 table{
     width: 95%;
     border: 5px solid rgb(168, 139, 60);
+    margin:30px
     
-}
-th{
-    border: 1px solid black;
-    width: 500px;
-}
-.fejlec{
-    border-bottom: 5px solid rgb(168, 139, 60);
+    
 }
