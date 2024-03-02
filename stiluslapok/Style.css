@@ -24,7 +24,8 @@ table{
     margin:30px
 }
 p {
-    text-align:justify
+    text-align:justify;
+    font-size:2vh; 
 }    
     
     
