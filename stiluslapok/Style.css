@@ -18,11 +18,7 @@ nav ,.dropdown-menu {
 .menu{
     color:white;
 }
-table{
-    width: 60%;
-    border: 5px solid rgb(168, 139, 60);
-    margin:30px
-}
+
 p {
     text-align:justify;
     font-size:2vh; 

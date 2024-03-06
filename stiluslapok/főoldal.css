@@ -26,3 +26,8 @@ img{
     clear: both;
     display: table;   
 }
+table{
+    width: 60%;
+    border: 5px solid rgb(168, 139, 60);
+    margin:30px
+}
