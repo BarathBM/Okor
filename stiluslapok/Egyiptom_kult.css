@@ -1,4 +1,43 @@
-.pir{
-    width:500 ;
-    height: 700;
+.main {
+    background-image: url(./Okor/Kepek/piramis.jpg); 
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+
+}
+
+.div_proba {
+    background-color: rgb(206, 199, 93);
+    color: rgb(138, 91, 3);
+    font-size: 20px;
+    font-weight: 800;
+    text-align: justify;
+    border: 2px black dotted;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 1%;
+}
+
+h3 {
+    color: brown;
+    text-transform: uppercase;
+    text-decoration: black underline dashed;
+}
+
+@media only screen and (max-width: 1400px) {
+    
+}
+#kep {
+    margin-bottom: 10px;
+    width: 30%;
+    height: auto;
+    float: right;
+    margin: 1%;
+    margin-top: -2%;
+    border-radius: 26px;
+    border: 5px rgb(138, 91, 3) solid;
 }
