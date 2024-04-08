@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+body {
+    
+    font-family: "Roboto Slab", serif;    
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-image:url(../Kepek/Hatter.jpg);
+    
+}
+.dropdown-toggle {
+    cursor:pointer;
+  }
+nav ,.dropdown-menu {
+    font-weight: bolder;
+    background-color: rgb(206, 199, 93);
+}
+.menu{
+    color:white;
+}
+
+p {
+    text-align:justify;
+    font-size:2vh;
+} 
+
+.szoveg{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.kep{
+    
+}
