@@ -9,6 +9,13 @@
     <title>Ókor</title>
 </head>
 <body>
+  <style>body {
+    background-image: url(../Okor/Kepek/piramis.jpg); 
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+
+}</style>
     <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand menu" href="#">Ókor</a>
@@ -49,28 +56,42 @@
           </div>
         </div>
     </nav>
-  <div class="container">
-    <h1 class="text-center">Egyiptom kultúrája</h1>
-    <h2>Vallás</h2>
-    <p>Az egyiptomi kultúra és vallás szorosan összefonódott, és mindkettő alapvetően meghatározta az emberek mindennapi életét. Az egyiptomiak politeizmusban hittek (azaz a többistenhitben) , és számos istent és istennőt tiszteltek, akik különböző aspektusokat képviseltek, például a természet, a háború vagy a halál istenségei. A fáraó a földi isteni képviselő volt, akit a napisten gyermekeként tiszteltek, és akit a nép istenkirálynak tekintett, és nekik építették a piramisokat, amik a fáraók sírjai. Ebből következtetve a halál és az utáni élet hitének nagy jelentősége volt az egyiptomi kultúrában. Az egyiptomiak úgy hitték, hogy a halál nem a vég, hanem az új kezdet, és hogy az elhunytaknak szükségük van a testeik megőrzésére és a lelkeik segítésére az utazásban az alvilágba. Ezért fejlesztették ki a mummifikálási technikákat és építették a sírkamrákat, hogy megőrizzék és megtisztítsák az elhunytak testeit és lelküket.  
-    </p>
-    <h2>Építészet</h2>
-    <p>
+    <div class="container-fluid"><h1>Az egyiptomi kultúra</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" col-sm-4 col-lg-12 div_proba">
+                    <h3>A Vallás</h3>
+                    <img src="./Kepek/Fáraó.jpg" id="kep">
+                    <p>A legkorábbi civilizáció, amely a mai Görögország területén feltűnt, a Kréta szigetén virágzó minoszi
+                        civilizáció volt kb. i. e. 2500 és i. e. 1450 között. Nagyon keveset tudunk a minoszi emberekről, még a nevük is
+                        modern kori névadás eredménye Minósz, a legendás krétai király után. Úgy tűnik, nem indoeurópai nép(ek) voltak,
+                        nyelvük, az eteokrétai írása lehet a megfejtetlen lineáris A írás. Alapvetően tengeri kereskedő nép voltak.
+                        Bár eltűnésük oka bizonytalan (bár egyesek úgy gondolják, a Théra vulkánkitörése vetett véget civilizációjuknak),
+                        mindenesetre egy, a szárazföld felől érkező mükénéi görög invázió zárta le történetüket.
+                    </p>
+                </div>
+                <div class=" col-sm-4 col-lg-12 div_proba">
+                    <h3>Építészet</h3>
+                    <img src="./Kepek/Szobor.jpg" id="kep">
+                    <p>
+                      Az egyiptomi építészeti stílus és technikák az ókori Egyiptom gazdag történelmének és kultúrájának egyik legmeghatározóbb jellemzője, és az építészeti csodák öröksége továbbra is lenyűgözi az embereket és inspirációt nyújt az építészek és művészek számára világszerte.
+                    </p>
+                </div>
+            </div>          
+        </div>
+    <div class="container-fluid div_proba">
+        <p>Szerinted infromatív volt az oldal?</p>
+        <form action="">
+          <input type="checkbox">
+          <label for="igen">Igen, informatív volt.</label><br>
+          <input type="checkbox">
+          <label for="nem">Nem volt informatív.</label><br>
+          <input type="submit">
+          <label for="submit"></label>
+        </form>
       
-    Az egyiptomi építészeti stílus és technikák az ókori Egyiptom gazdag történelmének és kultúrájának egyik legmeghatározóbb jellemzője, és az építészeti csodák öröksége továbbra is lenyűgözi az embereket és inspirációt nyújt az építészek és művészek számára világszerte.
-    </p>
-  
-    <div>
-      <p>Szerinted infromatív volt az oldal?</p>
-      <form action="">
-        <input type="checkbox">
-        <label for="igen">Igen, informatív volt.</label><br>
-        <input type="checkbox">
-        <label for="nem">Nem volt informatív.</label><br>
-        <input type="submit">
-        <label for="submit"></label>
-      </form>
     </div>
+  
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
