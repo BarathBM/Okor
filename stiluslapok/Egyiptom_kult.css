@@ -1,9 +1,6 @@
-.main {
-    background-image: url(./Okor/Kepek/piramis.jpg); 
-    background-size: cover;  
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-
+h1{
+    text-transform: uppercase;
+    color: white;
 }
 
 .div_proba {
@@ -12,7 +9,7 @@
     font-size: 20px;
     font-weight: 800;
     text-align: justify;
-    border: 2px black dotted;
+    border: 2px black solid;
     margin: auto;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -20,6 +17,7 @@
     padding-right: 16px;
     padding-left: 16px;
     padding-top: 1%;
+    size:auto;
 }
 
 h3 {
