@@ -1,6 +1,38 @@
-.kep{
-    content: "";
-    clear: both;
-    display: table;
-    
+.bekezd {
+    background-color: rgb(238, 234, 172);
+    color: rgb(187, 185, 101);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+    border: 2px rgb(116, 83, 12) solid;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 1%;
+    size:auto;
 }
+
+h3 {
+    color: brown;
+    text-transform: uppercase;
+    text-decoration: black underline dashed;
+}
+.kep{
+    margin-bottom: 10px;
+    width: 30%;
+    height: 80%;
+    float: right;
+    margin: 1%;
+    margin-top: -2%;
+    border-radius: 26px;
+    border: 1px rgb(138, 91, 3) solid;
+}
+
+
+
+
+
