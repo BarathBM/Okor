@@ -1,6 +1,6 @@
 .bekezd {
     background-color: rgb(238, 234, 172);
-    color: rgb(187, 185, 101);
+    color: rgb(115, 114, 75);
     font-size: 20px;
     font-weight: 600;
     text-align: justify;
@@ -13,7 +13,7 @@
     padding-right: 16px;
     padding-left: 16px;
     padding-top: 1%;
-    size:auto;
+    size:100%;
 }
 
 h3 {
@@ -23,12 +23,12 @@ h3 {
 }
 .kep{
     margin-bottom: 10px;
-    width: 30%;
-    height: 80%;
+    width: 150px;
+    height:200px;
     float: right;
     margin: 1%;
-    margin-top: -2%;
-    border-radius: 26px;
+    margin-top: 10px;
+    border-radius: 2px;
     border: 1px rgb(138, 91, 3) solid;
 }
 
