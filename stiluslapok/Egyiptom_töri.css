@@ -14,8 +14,12 @@
     padding-left: 16px;
     padding-top: 1%;
     size:100%;
+    width: 90%;
 }
-
+.lista{
+    text-decoration: rgb(112, 58, 58) underline solid;
+    
+}
 h3 {
     color: brown;
     text-transform: uppercase;
