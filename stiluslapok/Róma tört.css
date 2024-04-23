@@ -76,23 +76,19 @@ h1{
     size:auto;
 }
 
-a:link{
+.hivatkozas:link{
     color: aqua;
 }
 
-a:hover{
+.hivatkozas:hover{
     color:black;
 }
 
-a:active{
-    color: aliceblue;
-}
 
-a:visited{
-    color: blueviolet;
-}
+
 
 p {
     text-align:center;
     font-size:2vh;
-} 
+}
+
